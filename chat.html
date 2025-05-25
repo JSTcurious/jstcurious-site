@@ -3,36 +3,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Chat Assistant | JSTcurious</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JSTcurious Chatbot</title>
   <style>
     body {
       background-color: #001f1f;
       color: #e0f7f7;
       font-family: Arial, sans-serif;
-      text-align: center;
       margin: 0;
       padding: 0;
     }
+
     .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 2rem;
-    }
-    iframe {
-      border: none;
-      width: 100%;
-      height: 650px;
+      max-width: 800px;
+      margin: 3rem auto;
+      background: #003333;
       border-radius: 10px;
-      box-shadow: 0 0 10px rgba(64, 224, 208, 0.2);
+      padding: 2rem;
+      box-shadow: 0 0 20px rgba(64, 224, 208, 0.2);
+    }
+
+    h1, h2 {
+      color: #00ffe5;
+      text-align: center;
+    }
+
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      border-radius: 8px;
+      margin-top: 2rem;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #40e0d0;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>🤖 JSTcurious Chatbot</h1>
-    <p>Powered by Mistral 7B on Hugging Face</p>
-    <iframe src="https://thakurjitu-jstcurious-chatbot.hf.space" allow="fullscreen"></iframe>
+    <h2>Powered by Mistral 7B on Hugging Face</h2>
+    <iframe src="https://huggingface.co/spaces/thakurjitu/jstcurious-chatbot?embed=true"></iframe>
+    <div class="footer">
+      Built with 💡 curiosity and 🌊 peace of mind.
+    </div>
   </div>
 </body>
 </html>
